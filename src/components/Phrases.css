@@ -1,0 +1,16 @@
+.phrase_container {
+    min-width: 280px;
+    max-width: 500px;
+    background: rgba(144, 144, 145, 0.5);
+    padding: 5rem 3rem;
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .phrase_container {
+        min-width: 280px;
+        max-width: 400px;
+        padding: 5rem 3rem;
+    }
+}
